@@ -3,6 +3,8 @@ import Title from "./Title";
 import Container from "./Container";
 import Card from "./Card";
 import Flex from "./Flex";
+import producutimg from "../../public/images/product1.png";
+import producutimg2 from "../../public/images/product2.png";
 
 const NEW_ARRIVALS = () => {
   return (
@@ -14,28 +16,28 @@ const NEW_ARRIVALS = () => {
             <div className="w-[45%] lg:w-[23%] ">
               <Card
                 Crd_title="T-SHIRT WITH TAPE DETAILS"
-                img="./public/images/product1.png"
+                img={producutimg}
                 price="120"
               />
             </div>
             <div className="w-[45%] lg:w-[23%]">
               <Card
                 Crd_title="T-SHIRT WITH TAPE DETAILS"
-                img="./public/images/product2.png"
+                img={producutimg2}
                 price="120"
               />
             </div>
             <div className="w-[45%] lg:w-[23%]">
               <Card
                 Crd_title="T-SHIRT WITH TAPE DETAILS"
-                img="./public/images/product1.png"
+                img={producutimg}
                 price="120"
               />
             </div>
             <div className="w-[45%] lg:w-[23%]">
               <Card
                 Crd_title="T-SHIRT WITH TAPE DETAILS"
-                img="./public/images/product2.png"
+                img={producutimg}
                 price="120"
               />
             </div>

@@ -2,6 +2,10 @@ import React from "react";
 import Container from "./Container";
 
 import Flex from "./Flex";
+import pro1 from "../../public/images/p1.png";
+import pro2 from "../../public/images/p2.png";
+import pro3 from "../../public/images/p3.png";
+import pro4 from "../../public/images/p4.png";
 
 const Dress_style = () => {
   return (
@@ -16,14 +20,14 @@ const Dress_style = () => {
             <div className="max-w-[40%] ">
               <img
                 className="w-full object-fill "
-                src="../public/images/p2.png"
+                src={pro2}
                 alt="p1"
               />
             </div>
             <div className="max-w-[60%]">
               <img
                 className="w-full object-fill "
-                src="../public/images/p3.png"
+                src={pro3}
                 alt="p1"
               />
             </div>
@@ -32,14 +36,14 @@ const Dress_style = () => {
             <div className="max-w-[60%] ">
               <img
                 className="w-full object-fill "
-                src="./public/images/p1.png"
+                src={pro1}
                 alt="p1"
               />
             </div>
             <div className="max-w-[40%]">
               <img
                 className="w-full object-fill "
-                src="./public/images/p4.png"
+                src={pro4}
                 alt="p1"
               />
             </div>

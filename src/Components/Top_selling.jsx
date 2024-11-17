@@ -3,6 +3,7 @@ import Container from './Container'
 import Card from './Card'
 import Title from './Title'
 import Flex from './Flex'
+import producut from "../../public/images/product3.png"
 
 const Top_selling = () => {
   return (
@@ -14,28 +15,28 @@ const Top_selling = () => {
           <div className="w-[45%] lg:w-[23%] ">
             <Card
               Crd_title="T-SHIRT WITH TAPE DETAILS"
-              img="./public/images/product3.png"
+              img={producut}
               price="120"
             />
           </div>
           <div className="w-[45%] lg:w-[23%]">
             <Card
               Crd_title="T-SHIRT WITH TAPE DETAILS"
-              img="./public/images/product2.png"
+              img={producut}
               price="120"
             />
           </div>
           <div className="w-[45%] lg:w-[23%]">
             <Card
               Crd_title="T-SHIRT WITH TAPE DETAILS"
-              img="./public/images/product1.png"
+              img={producut}
               price="120"
             />
           </div>
           <div className="w-[45%] lg:w-[23%]">
             <Card
               Crd_title="T-SHIRT WITH TAPE DETAILS"
-              img="./public/images/product4.png"
+              img={producut}
               price="120"
             />
           </div>

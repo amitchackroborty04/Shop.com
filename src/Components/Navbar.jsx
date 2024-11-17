@@ -7,6 +7,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from "react-router-dom";
+import logo from "../../public/images/logo.png"
 
 const Navbar = () => {
   let [menu, setMenu] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
       <Container>
         <Flex className=" justify-between items-center mt-6">
           <div className="w-[20%]">
-            <img src="./public/images/logo.png" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <div className=" w-[38%] relative">
             <input

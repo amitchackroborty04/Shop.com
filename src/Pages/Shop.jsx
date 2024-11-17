@@ -7,6 +7,7 @@ import { FaAngleDown } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 import Slider from "react-slick";
 import Card from "../Components/Card";
+import product from "../../public/images/product3.png";
 
 const Shop = ({ title }) => {
   let [categoryshow, setCategortyshow] = useState(false);
@@ -159,45 +160,21 @@ const Shop = ({ title }) => {
               <div className="w-full md:w-[47%] lg:w-[32%]">
                 <Card
                   Crd_title="T-SHIRT WITH TAPE DETAILS"
-                  img="./public/images/product2.png"
+                  img={product}
                   price="120"
                 />
               </div>
               <div className="w-full md:w-[47%] lg:w-[32%]">
                 <Card
                   Crd_title="T-SHIRT WITH TAPE DETAILS"
-                  img="./public/images/product2.png"
+                  img={product}
                   price="120"
                 />
               </div>
               <div className="w-full md:w-[47%] lg:w-[32%]">
                 <Card
                   Crd_title="T-SHIRT WITH TAPE DETAILS"
-                  img="./public/images/product2.png"
-                  price="120"
-                />
-              </div>
-            </Flex>
-
-            <Flex className="justify-between mt-4 flex-wrap lg:flex-nowrap gap-y-5">
-              <div className="w-full md:w-[47%] lg:w-[32%]">
-                <Card
-                  Crd_title="T-SHIRT WITH TAPE DETAILS"
-                  img="./public/images/product2.png"
-                  price="120"
-                />
-              </div>
-              <div className="w-full md:w-[47%] lg:w-[32%]">
-                <Card
-                  Crd_title="T-SHIRT WITH TAPE DETAILS"
-                  img="./public/images/product2.png"
-                  price="120"
-                />
-              </div>
-              <div className="w-full md:w-[47%] lg:w-[32%]">
-                <Card
-                  Crd_title="T-SHIRT WITH TAPE DETAILS"
-                  img="./public/images/product2.png"
+                  img={product}
                   price="120"
                 />
               </div>
@@ -207,21 +184,45 @@ const Shop = ({ title }) => {
               <div className="w-full md:w-[47%] lg:w-[32%]">
                 <Card
                   Crd_title="T-SHIRT WITH TAPE DETAILS"
-                  img="./public/images/product2.png"
+                  img={product}
                   price="120"
                 />
               </div>
               <div className="w-full md:w-[47%] lg:w-[32%]">
                 <Card
                   Crd_title="T-SHIRT WITH TAPE DETAILS"
-                  img="./public/images/product2.png"
+                  img={product}
                   price="120"
                 />
               </div>
               <div className="w-full md:w-[47%] lg:w-[32%]">
                 <Card
                   Crd_title="T-SHIRT WITH TAPE DETAILS"
-                  img="./public/images/product2.png"
+                  img={product}
+                  price="120"
+                />
+              </div>
+            </Flex>
+
+            <Flex className="justify-between mt-4 flex-wrap lg:flex-nowrap gap-y-5">
+              <div className="w-full md:w-[47%] lg:w-[32%]">
+                <Card
+                  Crd_title="T-SHIRT WITH TAPE DETAILS"
+                  img={product}
+                  price="120"
+                />
+              </div>
+              <div className="w-full md:w-[47%] lg:w-[32%]">
+                <Card
+                  Crd_title="T-SHIRT WITH TAPE DETAILS"
+                  img={product}
+                  price="120"
+                />
+              </div>
+              <div className="w-full md:w-[47%] lg:w-[32%]">
+                <Card
+                  Crd_title="T-SHIRT WITH TAPE DETAILS"
+                  img={product}
                   price="120"
                 />
               </div>
