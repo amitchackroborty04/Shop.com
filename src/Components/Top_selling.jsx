@@ -14,28 +14,28 @@ const Top_selling = () => {
           <div className="w-[45%] lg:w-[23%] ">
             <Card
               Crd_title="T-SHIRT WITH TAPE DETAILS"
-              img="../public/images/product3.png"
+              img="./public/images/product3.png"
               price="120"
             />
           </div>
           <div className="w-[45%] lg:w-[23%]">
             <Card
               Crd_title="T-SHIRT WITH TAPE DETAILS"
-              img="../public/images/product2.png"
+              img="./public/images/product2.png"
               price="120"
             />
           </div>
           <div className="w-[45%] lg:w-[23%]">
             <Card
               Crd_title="T-SHIRT WITH TAPE DETAILS"
-              img="../public/images/product1.png"
+              img="./public/images/product1.png"
               price="120"
             />
           </div>
           <div className="w-[45%] lg:w-[23%]">
             <Card
               Crd_title="T-SHIRT WITH TAPE DETAILS"
-              img="../public/images/product4.png"
+              img="./public/images/product4.png"
               price="120"
             />
           </div>

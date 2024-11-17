@@ -10,12 +10,12 @@ const Card = ({ Crd_title, price, img }) => {
           {Crd_title}
         </h2>
         <div className="flex gap-2 items-center mt-2">
-          <IoIosStarOutline />
-          <IoIosStarOutline />
-          <IoIosStarOutline />
-          <IoIosStarOutline />
-          <IoIosStarOutline />
-          <h4>5/5</h4>
+          <IoIosStarOutline  className="text-base lg:text-xl"/>
+          <IoIosStarOutline  className="text-base lg:text-xl"/>
+          <IoIosStarOutline  className="text-base lg:text-xl"/>
+          <IoIosStarOutline  className="text-base lg:text-xl"/>
+          <IoIosStarOutline  className="text-base lg:text-xl"/>
+          <h4 className="text-sm lg:text-base">5/5</h4>
         </div>
         <h4 className="font-Satoshi font-bold text-base lg:text-[24px] leading-[32px] mt-2 ">
           ${price}

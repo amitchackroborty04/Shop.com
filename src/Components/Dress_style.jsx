@@ -32,14 +32,14 @@ const Dress_style = () => {
             <div className="max-w-[60%] ">
               <img
                 className="w-full object-fill "
-                src="../public/images/p1.png"
+                src="./public/images/p1.png"
                 alt="p1"
               />
             </div>
             <div className="max-w-[40%]">
               <img
                 className="w-full object-fill "
-                src="../public/images/p4.png"
+                src="./public/images/p4.png"
                 alt="p1"
               />
             </div>
