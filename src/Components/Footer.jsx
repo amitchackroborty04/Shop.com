@@ -4,13 +4,14 @@ import Flex from "./Flex";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import logo from "../../public/images/logo.png";
 const Footer = () => {
   return (
     <section className="mt-[80px] ">
       <Container>
         <Flex className="justify-between flex-wrap lg:flex-nowrap px-4 gap-y-5 border-b-[2px] pb-10 ">
           <div className="w-[45%] lg:w-[30%] cursor-pointer ">
-            <img src="./public/images/logo.png" alt="logo" />
+            <img src={logo} alt="logo" />
             <p className="font-Satoshi text-sm leading-5 font-normal text-[#00000099] mt-6 w-full lg:w-[248px]">
               We have clothes that suits your style and which you’re proud to
               wear. From women to men.
