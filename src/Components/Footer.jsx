@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <section className="mt-[80px] ">
       <Container>
-        <Flex className="justify-between flex-wrap lg:flex-nowrap px-4 gap-y-5 border-b-[2px] pb-10 ">
+        <Flex className="justify-between flex-wrap lg:flex-nowrap px-4 gap-y-4 border-b-[2px] pb-10 ">
           <div className="w-[45%] lg:w-[30%] cursor-pointer ">
             <img src={logo} alt="logo" />
             <p className="font-Satoshi text-sm leading-5 font-normal text-[#00000099] mt-6 w-full lg:w-[248px]">
@@ -92,7 +92,9 @@ const Footer = () => {
             </h3>
           </div>
         </Flex>
-        <p className="font-Satoshi text-[8px]  lg:text-sm font-normal mt-2">Shop.co © 2000-2023, All Rights Reserved , deign by @ amit ck</p>
+        <p className="font-Satoshi text-[8px]  lg:text-sm font-normal mt-2">
+          Shop.co © 2000-2023, All Rights Reserved , deign by @ amit ck
+        </p>
       </Container>
     </section>
   );

@@ -7,7 +7,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from "react-router-dom";
-import logo from "../../public/images/logo.png"
+import logo from "../../public/images/logo.png";
 
 const Navbar = () => {
   let [menu, setMenu] = useState(false);
@@ -39,31 +39,34 @@ const Navbar = () => {
              menu ? "left-[30%]" : " left-[-100%]"
            } bg-white z-50 lg:bg-transparent  h-screen lg:h-auto py-10 lg:py-0 px-7 lg:px-0 gap-y-7 duration-500  !fixed lg:!static `}
             >
-              <Link to = '/'>
-              <li className="font-Satoshi text-base font-normal text-[#000000] cursor-pointer">
-                Home
-              </li>
+              <Link onClick={() => setMenu(false)} to="/">
+                <li className="font-Satoshi text-base font-normal text-[#000000] cursor-pointer">
+                  Home
+                </li>
               </Link>
-              <Link to = '/shop'>
-              <li className="font-Satoshi text-base font-normal text-[#000000] cursor-pointer">
-                Shop
-              </li>
+              <Link onClick={() => setMenu(false)} to="/shop">
+                <li className="font-Satoshi text-base font-normal text-[#000000] cursor-pointer">
+                  Shop
+                </li>
               </Link>
-              <Link to = '/about'>
-              <li className="font-Satoshi text-base font-normal text-[#000000] cursor-pointer">
-                About
-              </li>
+              <Link onClick={() => setMenu(false)} to="/about">
+                <li className="font-Satoshi text-base font-normal text-[#000000] cursor-pointer">
+                  About
+                </li>
               </Link>
-              <Link to ='/contact'>
-              <li className="font-Satoshi text-base font-normal text-[#000000] cursor-pointer">
-                Contact
-              </li>
+              <Link onClick={() => setMenu(false)} to="/contact">
+                <li className="font-Satoshi text-base font-normal text-[#000000] cursor-pointer">
+                  Contact
+                </li>
               </Link>
-              {menu &&
-              <span onClick={handlemenu} className=" absolute top-3 left-2">
-                <RxCross2  className="text-xl text-red-500"/>
-              </span>
-              }
+              {menu && (
+                <span
+                  onClick={handlemenu}
+                  className=" absolute top-1 bg-[#ede7e7] shadow-2xl border rounded-full p-1 left-2"
+                >
+                  <RxCross2 className="text-xl text-red-500" />
+                </span>
+              )}
             </ul>
           </div>
 

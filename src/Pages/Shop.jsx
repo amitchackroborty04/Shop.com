@@ -20,8 +20,8 @@ const Shop = ({ title }) => {
         <div className="mt-7">
           <Bredcam title={title} />
         </div>
-        <Flex className="mt-6 justify-between ">
-          <div className="w-[40%] lg:w-[22%] border-[1px] border-[#0000001A] px-2 lg:px-6 py-5 rounded-xl">
+        <Flex className="mt-6 justify-between   ">
+          <div className="w-[40%] lg:w-[22%]   border-[1px] border-[#0000001A] px-2 lg:px-6 py-5 rounded-xl ">
             <Flex className="justify-between items-center border-b-[1px] border-[#0000001A] pb-6">
               <h2 className="font-Satoshi text-base lg:text-xl font-bold leading-[27px]">
                 Filters
